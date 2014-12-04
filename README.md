@@ -102,10 +102,13 @@ public void onCreate(Bundle savedInstanceState){
 	
     super.onCreate(savedInstanceState);
 
+    ...
+    WebView webview = (webView) findViewById(R.id.your_web_view);
+
     //下記3行を追記
-    super.init();
     mc = new MyJavascriptInterface(this);
-    appView.addJavascriptInterface(mc, "appmart");
+    webview.addJavascriptInterface(mc, "appmart");
+    webview.getSettings().setJavaScriptEnabled(true);
     
     //いつも通りのコード
 }
