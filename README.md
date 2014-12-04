@@ -210,7 +210,7 @@ class MyJavascriptInterface{
         	}
         	
     	//重複クリック防止
-	alreadyClicked.push(itemId.id);
+		alreadyClicked.push(itemId.id);
 
     	//決済	
     	window.appmart.doSettlement(itemId);
