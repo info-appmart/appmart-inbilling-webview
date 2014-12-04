@@ -47,6 +47,8 @@ AppmartのWebView用のアプリ内課金システムのプラグインです。
 
 #### パーミッション設定
 
+> [AndroidManifest.xml]にパーミッションを追加します。
+
 ```xml
 <!-- 課金API用 -->
 <uses-permission android:name="jp.app_mart.permissions.APPMART_BILLING" />
@@ -74,9 +76,9 @@ git clone https://github.com/info-appmart/appmart-inbilling-webview.git
 #### androidプロジェクトに導入（eclipse）
 
 + ⇒ androidプロジェクトに右クリック　
-+ ⇒ Properties 
++ ⇒  Properties（プロパティー） 
 + ⇒ Android
-+ ⇒ Libraries  :  Add (Pluginを選択)
++ ⇒ Libraries : Add （追加）(Pluginを選択)
 
 ![Eclipse:appmart webview](http://s15.postimg.org/97ltrkae3/webview_plugin.png "Eclipse:appmart webview")
 
@@ -188,7 +190,7 @@ class MyJavascriptInterface{
 }
 ```
 
-#### HTMLを変更
+#### HTML変更
 
 > ボタンをクリックする際にjavascriptでMyJavascriptInterfaceのdoSettlement関数を呼び出します。
 
@@ -196,7 +198,7 @@ class MyJavascriptInterface{
 ```html
 <script>       
 
-	var alreadyClicked = new Array(); 
+    var alreadyClicked = new Array(); 
 
     function do_settlement(obj, itemId){
 
@@ -208,7 +210,7 @@ class MyJavascriptInterface{
         	}
         	
     	//重複クリック防止
-		alreadyClicked.push(itemId.id);
+	alreadyClicked.push(itemId.id);
 
     	//決済	
     	window.appmart.doSettlement(itemId);
