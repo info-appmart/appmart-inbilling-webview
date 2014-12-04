@@ -125,7 +125,7 @@ public void onCreate(Bundle savedInstanceState){
 
 > Javaと連動するために、JavascriptInterfaceクラスを用意します。 
 
-> 内部クラスのため、**activityクラス内に定義してください**。　callbackオブジェクト経由で決済画面よりのデータを受け取ります。
+> 内部クラスのため、**activityクラス内に定義してください**。　callbackオブジェクト経由で決済画面よりのデータを受け取ります。決済画面より戻ってきた時に[callback]の[settlementWaitValidation]が呼ばれます。エンドユーザーにコンテンツを提供して、[plugin]の[confirmSettlement]メッソードで決済を確定させます。決済確定の結果は[callback]の[settlementValidated]になります。
 
 ```java
 class MyJavascriptInterface{
