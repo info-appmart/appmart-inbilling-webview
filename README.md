@@ -94,10 +94,10 @@ git clone https://github.com/info-appmart/appmart-inbilling-webview.git
 private MyJavascriptInterface mc;
 	
 //開発者情報
-public String devId = "YOUR_DEVELOPPER_ID";
-public String licenceKey = "YOUR_LICENCE_KEY";
-public String publicKey= "YOUR_PUBLIC_KEY";
-public String appId= "YOUR_APP_ID";
+public String devId = "YOUR_DEVELOPPER_ID";	//デベロッパーID
+public String licenceKey = "YOUR_LICENCE_KEY";	//セキュリティコード
+public String publicKey= "YOUR_PUBLIC_KEY";	//公開鍵
+public String appId= "YOUR_APP_ID";		//アプリID
 
 @Override
 public void onCreate(Bundle savedInstanceState){
