@@ -192,7 +192,7 @@ class MyJavascriptInterface{
 
 #### HTML変更
 
-> ボタンをクリックする際にjavascriptでMyJavascriptInterfaceのdoSettlement関数を呼び出します。
+> ボタンをクリックする際にjavascriptでMyJavascriptInterfaceのdoSettlement関数を呼び出します。[testId]を変更してください
 
 
 ```html
