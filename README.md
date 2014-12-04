@@ -107,7 +107,7 @@ public void onCreate(Bundle savedInstanceState){
     mc = new MyJavascriptInterface(this);
     appView.addJavascriptInterface(mc, "appmart");
     
-    loadUrl(launchUrl);
+    //いつも通りのコード
 }
     
 ```
