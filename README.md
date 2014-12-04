@@ -56,7 +56,7 @@ AppmartのWebView用のアプリ内課金システムのプラグインです。
 
 ```shell
 cd /home/user/your_directory
-git clone https://github.com/info-appmart/appmart-inbilling-webview
+git clone https://github.com/info-appmart/appmart-inbilling-webview.git
 ```
 
 > 注意点：　Eclipseにうまく読み込まれないために、workspace以外のフォルダーにcloneしてください。
