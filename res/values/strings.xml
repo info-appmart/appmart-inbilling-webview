@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Appmart for PhoneGap</string>
+	<string name="hello_world">Appmart内部課金システムのサンプルコードです。</string>
+	<string name="button_value">課金システムへアクセス</string>
+	<string name="button2_value">ステータス確認</string>
+	<string name="action_settings">Settings</string>
+	<string name="success">決済が確認されました！</string>
+	
+	<string name="no_appmart_installed">Appmartがインストールされていません。</string>
+	<string name="appmart_connection_success">Appmartサービスの接続が成功しました。</string>
+	<string name="appmart_connection_not_possible">Appmartに接続できませんでした。</string>
+	<string name="wrong_parameters">渡されたパラメータが正しくありません。</string>
+	<string name="exception_occured">例外が発生しました。</string>
+	<string name="settlement_not_confirmed">決済確認とれませんでした。</string>
+	<string name="start_information_handle">情報取得開始・・</string>
+	<string name="settlement_confirmed">決済が確認されました。</string>
+	<string name="data_encryption_failed">暗号化は失敗しました。</string>
+	
+	
+	
+	<string name="check_previous_managed_status">管理されいてるサービスの購入状態を確認</string>
+	<string name="check_previous_managed_status_button">購入状態確認</string>
+	
+	<string name="already_bought_in_the_past">購入履歴あり</string>
+	<string name="never_bought">購入履歴なし</string>
+	
+	    
+    
+</resources>
